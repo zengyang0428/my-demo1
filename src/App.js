@@ -57,7 +57,7 @@ class App extends Component {
     window.myContract.methods.value().call().then(value=>{
       //打印value
       console.log(value)
-      //传入
+      //传入到前端
       this.setState({value:value})
     })
   }
