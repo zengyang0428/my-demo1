@@ -63,7 +63,7 @@ class App extends Component {
   }
   Increase = () => {
     //increaase 是智能合约中的函数 send可以放入两个参数 第一个地址 第二个gas
-    window.myContract.methods.increase(1).send({from:window.defaultAccount})
+    window.myContract.methods.increaase(1).send({from:window.defaultAccount})
     //交易hash
     .on('transactionHash',(transactionHash)=>{
       console.log('transactionHash',transactionHash)
