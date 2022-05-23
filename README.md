@@ -1,9 +1,9 @@
-# 第一个智能合约
-非常的开心
+# 与前端交互
+非常开心
 
 # 安装
 使用纱线安装更为有效
-yarn install
+ yarn install
 
 # 运行
 yarn start
